@@ -1,0 +1,42 @@
+name: General Question
+description: Ask a general question about the CFTC Dashboard
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this question form!
+  
+  - type: dropdown
+    id: category
+    attributes:
+      label: Question Category
+      options:
+        - Data Related
+        - Usage Related
+        - Dashboard Features
+        - Privacy Policy
+        - Other
+    validations:
+      required: true
+      
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: Please provide as much detail as possible
+      placeholder: "Your detailed question here..."
+    validations:
+      required: true
+      
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our rules
+      options:
+        - label: I have checked that this question hasn't been asked before
+          required: true
+        - label: I understand not to include sensitive personal information
+          required: true
