@@ -31,5 +31,5 @@ We aim to respond to all inquiries within 2-3 business days.
 
 ## Links
 
-- [Privacy Policy](https://storage.googleapis.com/cftc-dashboard/privacy-policy)
-- [Terms of Use](https://storage.googleapis.com/cftc-dashboard/terms)
+- [Privacy Policy](https://cftc-dashboard.com/privacy-policy)
+- [Terms of Use](https://cftc-dashboard.com/terms)
